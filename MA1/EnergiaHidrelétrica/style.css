@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'roboto', sans-serif;
+    background-color: black;
+}
+
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+a {
+    text-decoration: none;
+    color: lightgray;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.3s ease;
+}
+
+a:hover {
+    text-decoration-color: darkgray;
+}
+
+nav {
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.links a {
+    margin-right: 30px;
+    
+}
+
+
+
+.logo {
+    font-size: 35px;
+    color: lightgray;
+    font-weight: 600;
+}
+
+nav .login button {
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+nav .login button.signup {
+    background-color: #000;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 14px;
+}
+
+
+
+.logo{
+    font-size: 35px;
+    color: #15161d;
+    font-weight: 600;
+}
+
+
+.home{
+    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:lightgray;
+    margin-top: 3rem;
+}
+
+.imegemFundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-around;
+
+}
+
+.imgBox img {
+    width:350px;
+    
+    height: 250px;
+   
+    transition: transform 0.3s ease;
+   
+    border-radius: 15px;
+}
+
+.imgBox:hover img {
+    transform: scale(1.1);
+    
+}
+
+.imgBox {
+    margin: 0 10px;
+    
+}
+.imgBox img {
+    max-width: 100%; 
+}
+
+/* footer */
+
+.site-footer
+{
+  background-color:black;
+  padding:45px 0px 20px;
+  font-size:15px;
+  line-height:24px;
+  color:lightgray;
+}
+.site-footer hr
+{
+  border-top-color:lightgray;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:auto;
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
